@@ -1,0 +1,133 @@
+#hero {
+    margin-top: 70px;
+  .hero- {
+    &title {
+      font-weight: 700;
+      font-size: 56px;
+      line-height: 84px;
+      text-transform: capitalize;
+
+      color: $text-dark;
+
+      margin-bottom: 12px;
+    }
+
+    &button {
+      font-weight: 500;
+      font-size: 16px;
+      line-height: 24px;
+      /* identical to box height */
+
+      color: $white;
+
+      background: linear-gradient(336.8deg, #0c64dc 2.51%, #2c95db 87.37%);
+      border-radius: 12px;
+
+      padding: 12px 32px;
+      margin-top: 56px;
+    }
+
+    &bg {
+      width: 415px;
+      height: 600px;
+    }
+
+    &image {
+      width: 460px;
+      height: 585px;
+      left: 150px;
+    }
+
+
+    &information {
+        top: 110px;
+        left: 35px;
+
+        filter: drop-shadow(-24px 27px 65px rgba(216, 216, 216, 0.4));
+
+        background: $white;
+        border-radius: 24px 12px;
+    }
+    &info- {
+      &top {
+        padding: 16px;
+        padding-top: 14px;
+      }
+
+      &title {
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 24px;
+        /* identical to box height */
+
+        color: $text-dark;
+      }
+
+      &desc {
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 21px;
+        /* identical to box height */
+
+        color: $grey-secondary;
+      }
+
+      &content {
+        padding: 8px 16px;
+
+        &.active {
+            background: $bg-secondary;
+        }
+      }
+
+      &thumbnail {
+        width: 42px;
+        height: 42px;
+
+        margin-right: 8px;
+      }
+
+      &name {
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 21px;
+        /* identical to box height */
+
+        color: $text-dark;
+      }
+
+      &role {
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 18px;
+        /* identical to box height */
+
+        color: $grey-secondary;
+      }
+
+      &bottom {
+        padding: 16px 14px;
+        padding-top: 12px;
+      }
+
+      &button {
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 21px;
+        /* identical to box height */
+
+        text-transform: capitalize;
+        color: $primary-light;
+
+        background: linear-gradient(
+          336.8deg,
+          rgba(12, 100, 220, 0.1) 2.51%,
+          rgba(44, 149, 219, 0.1) 87.37%
+        );
+        border-radius: 12px;
+
+        padding: 10px 32px;
+      }
+    }
+  }
+}

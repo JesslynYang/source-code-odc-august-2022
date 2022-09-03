@@ -3,6 +3,11 @@ $primary-light: #2c95db;
 $text-dark: #232631;
 $white: #ffffff;
 
+$grey: #8a8a8a;
+$grey-secondary: #848484;
+
+$bg-secondary: #F5F5F5;
+
 html,
 body {
   font-family: "Poppins", sans-serif;
@@ -18,6 +23,28 @@ body {
 
   color: #232631;
   margin-left: 12px;
+}
+
+.section- {
+  &label {
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 27px;
+    /* identical to box height */
+
+    letter-spacing: 0.005em;
+    text-transform: capitalize;
+
+    color: $primary-light;
+  }
+
+  &description {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 27px;
+
+    color: $grey;
+  }
 }
 
 // Colors
