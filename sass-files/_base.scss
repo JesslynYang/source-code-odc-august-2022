@@ -1,0 +1,25 @@
+$primary: #0d66dd;
+$primary-light: #2c95db;
+$text-dark: #232631;
+$white: #ffffff;
+
+html,
+body {
+  font-family: "Poppins", sans-serif;
+}
+
+.brand-title {
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 36px;
+  /* identical to box height */
+
+  text-transform: capitalize;
+
+  color: #232631;
+  margin-left: 12px;
+}
+
+// Colors
+// Mixin
+// Styling Dasar
