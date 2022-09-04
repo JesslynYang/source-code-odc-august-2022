@@ -1,0 +1,109 @@
+#review {
+  margin: 120px 0;
+  .section-wrapper {
+    width: 592px;
+    height: 572px;
+
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+  }
+  .section-bg {
+    width: 416px;
+    height: 484px;
+  }
+
+  .section-image {
+    left: 0;
+    // height: 484px;
+    // width: 606px;
+  }
+  .section-title {
+    margin-bottom: 30px;
+  }
+
+  .review- {
+    &card {
+      background: $white;
+      border-radius: 24px;
+
+      padding: 18px;
+      padding-bottom: 22px;
+
+      margin-bottom: 20px;
+      max-width: 560px;
+    }
+
+    &thumbnail {
+      width: 42px;
+      height: 42px;
+
+      margin-right: 12px;
+    }
+
+    &name {
+      font-style: normal;
+      font-weight: 600;
+      font-size: 18px;
+      line-height: 27px;
+      /* identical to box height */
+
+      color: $text-dark;
+    }
+
+    &description {
+      font-weight: 400;
+      font-size: 18px;
+      line-height: 27px;
+
+      color: $grey;
+      margin-top: 18px;
+    }
+
+    &info {
+      background: $white;
+      box-shadow: -24px 27px 65px rgba(216, 216, 216, 0.14);
+      border-radius: 24px;
+
+      padding: 24px 32px 30px 32px;
+
+      left: 0;
+      top: 0;
+    }
+
+    &icon {
+      width: 64px;
+      height: 64px;
+
+      background: linear-gradient(336.8deg, rgba(12, 100, 220, 0.1) 2.51%, rgba(44, 149, 219, 0.1) 87.37%);
+
+      display: flex;
+      justify-content: center;
+      align-items: flex-end;
+    }
+
+    &data {
+      font-weight: 600;
+      font-size: 24px;
+      line-height: 36px;
+      /* identical to box height */
+      
+      text-align: center;
+      letter-spacing: 0.01em;
+      
+      color: $text-dark;
+      
+    }
+
+    &label {
+      font-weight: 400;
+      font-size: 18px;
+      line-height: 27px;
+      /* identical to box height */
+      
+      
+      color: $grey;
+      
+    }
+  }
+}

@@ -1,0 +1,12 @@
+#review .section-wrapper {
+  width: 416px;
+  height: 484px;
+}
+#review .section-image {
+  left: 0;
+}
+#review .review-thumbnail {
+  width: 42px;
+  height: 42px;
+  margin-right: 12px;
+}

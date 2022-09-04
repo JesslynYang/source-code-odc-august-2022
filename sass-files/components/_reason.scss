@@ -1,0 +1,53 @@
+#reason {
+  margin: 120px 0;
+  .section-image {
+    width: 500px;
+    height: 600px;
+  }
+
+  .section-title {
+    margin-bottom: 32px;
+  }
+
+
+  .reason- {
+    &card {
+      background: $white;
+      border-radius: 12px;
+      padding: 24px 32px;
+
+      width: fit-content;
+
+      margin-bottom: 24px;
+    }
+
+    &icon {
+      width: 52px;
+      height: 52px;
+
+      background: $blue-light;
+      border-radius: 12px;
+
+      margin-right: 21px;
+    }
+
+    &title {
+      font-weight: 600;
+      font-size: 16px;
+      line-height: 24px;
+      /* identical to box height */
+
+      text-transform: capitalize;
+
+      color: $text-dark;
+    }
+
+    &description {
+      font-weight: 400;
+      font-size: 16px;
+      line-height: 24px;
+
+      color: $grey;
+    }
+  }
+}
